@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Success Classes</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--title icon-->
+	<link rel="icon" href="images/others/logo.jpg" type="jpg" size="10*10">
+
+	<!--font awesome icons-->
+	<script src="https://kit.fontawesome.com/d101ca7eb2.js"></script>
+
+	<!--font body-->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
+	<!--Style.css-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!--Animate.css-->
+	<link rel="stylesheet" href="CSS/animate.css">
+
+
+	<style>
+		.jumbotron
+		{
+  			background-image: url(images/jumbotron/big.jpg);
+  			background-position: 10% 15%;
+    		background-size: cover;
+    		background-repeat: no-repeat;
+    		color: white;
+    		text-shadow: black 0.3em 0.3em 0.3em;
+    		margin-bottom:0;
+    	}
+    	@media only screen and (max-width: 700px) {
+    		.jumbotron{
+    			background-image: url(images/jumbotron/small.png);
+    		}
+    	}
+		.carousel-caption{
+   			padding-bottom: 150px;
+		}
+    	@media only screen and (max-width: 500px) {
+    		.carousel-caption{
+   				 padding-bottom: 150px;
+			}
+	    	.carousel-caption{
+	    		    padding-bottom: 100px;
+    		}
+    		.carousel-caption h2{
+    		    font-size: 25px;
+    		}
+    		.carousel-caption h3{
+    		    font-size: 20px;
+   	 		}
+    		.carousel-caption p{
+        		font-size: 10px;
+    		}
+		}
+
+		@media only screen and (max-width: 786px) {
+    		.carousel-caption{
+        		padding-bottom: 0px;
+    		}
+    		.carousel-caption h2{
+        		font-size: 1px;
+    		}
+    		.carousel-caption h3{
+      		 	font-size: 1px;
+    		}
+    		.carousel-caption p{
+    			font-size: 1px;
+    		}
+    	}
+    	.li{
+    		display: block;
+    	}
+	</style>
+</head>
+<body>
+
+<!--JUMBOTRON-->
+<div class="jumbotron text-center ">
+  <h1 class="animated pulse">Success Classes</h1>
+  <p class="animated pulse"><i>Stands For Continues Excellence</i></p> 
+</div>
+<!--/JUMBOTRON-->
+
+
+<!--NAVBAR-->
+<div class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+	<a class="navbar-brand" href="#">
+  		<img src="images/others/logo.jpg" class="navbar-brand"><strong>Success Classes</strong>
+	</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+     	<ul class="navbar-nav ml-auto text-center">
+      		<li class="nav-item">
+        		<a class="nav-link" href="index.html"><strong>HOME</strong> <span class="sr-only">(current)</span></a>
+      		</li>
+      		<li class="nav-item dropdown">
+        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>COURSES</strong>
+       		 	</a>
+        		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          			<a class="dropdown-item" href="construction.html">SSC</a>
+          			<a class="dropdown-item" href="construction.html">HSC (SCIENCE)</a>
+          		<div class="dropdown-divider"></div>
+          			<a class="dropdown-item" href="construction.html">CET/JEE/NEET</a>
+        		</div>
+      		</li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="construction.html"><strong>CAREER</strong></a>
+     		</li>
+     		<li class="nav-item">
+        		<a class="nav-link" href="construction.html"><strong>GALLERY</strong></a>
+     		</li>
+     		<li class="nav-item">
+        		<a class="nav-link" href="#contact"><strong>CONTACT US</strong></a>
+     		</li>
+      		
+    	</ul>
+  	</div>
+</div>
+<!--/NAVBAR-->
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item ">
+      <div class="view">
+        <img src="images/slides/slide2.jpg" class="d-block w-100" alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="animated fadeInUp carousel-caption text-left" >
+        <h2>BETTER EDUCATION </h2>
+        <h3>For a Better World</h3>
+        <p class="text-left">We Believe there is nothing more important than Education.</p>
+	  </div>
+    </div>
+    <div class="carousel-item active">
+      <!--Mask color--> 
+      <div class="view">
+        <img class="d-block w-100" src="images/slides/slide1.jpg"
+          alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="animated fadeInUp carousel-caption text-right" >
+        <h2>TAKE THE FIRST STEP</h2>
+        <h3>to knowledge with us</h3>
+        <p class="text-right">The purpose of education is to turn mirrors into windows</p>
+	  </div>
+    </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/Carousel Wrapper-->
+
+<!--About us-->
+<section>
+	<div class="container-fluid">
+		<h1 class="text-center text-capitalize pt-5 pb-1 wow fadeInUp">About Us</h1>
+		<hr class="w-25 mx-auto mb-3">
+	</div>	
+</section>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-12">
+			<img src="images/others/aboutme.jpg" class="img-fluid pt-0 wow bounceInLeft" style="height: 250px">	
+		</div>
+
+		<div class="col-lg-8 col-md-8 col-12">
+			<h2 class="text-center pb-1 wow bounceInRight" style="background-color: #34ebb4; border-radius: 5px;">Success Classes</h2>
+			<STRONG>Prof. Vaibhav S. Raut </STRONG><br>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+		</div>	
+	</div>
+</div>
+<!--/About us-->
+
+<!--what do we offer-->
+<section>
+	<div class="container-fluid">
+		<h1 class="text-center text-capitalize pt-5 wow fadeInUp">what do we offer</h1>
+		<hr class="w-25 mx-auto mb-5">
+	</div>	
+</section>
+
+<div class="container">
+	<div class="row feature-offers">
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<img src="images/features/1.jpg" class="img-fluid mx-auto d-block wow bounce" alt="1.jpg">
+			<h4 class="">WELL-CULTURED STUDY MATERIAL</h4>
+	
+			<p class="mb-5 mt-2"> Our experienced faculty strive hard for extensive coverage of all courses in the form of 	lectures, study material and tests to ensure that students cover everything. </p>
+	
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<img src="images/features/2.jpg" class="img-fluid mx-auto d-block wow bounce" alt="2.jpg">
+			<h4 class="pb-4">EXPERIENCED FACULTY</h4>
+	
+			<p class="mb-5 mt-2"> Our faculty add experience and value to student’s learning constantly with advanced 	teaching techniques and quick doubt clarification. </p>
+	
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<img src="images/features/3.jpg" class="img-fluid mx-auto d-block wow bounce" alt="3.jpg">
+			<h4 class="pb-4">TESTS & ASSESSMENT</h4>
+	
+			<p class="mb-5 mt-2"> Our topic-wise tests, major-tests and rigourous feedback mechanism help the students to 	know their level of understanding</p>
+	
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<img src="images/features/4.jpg" class="img-fluid mx-auto d-block wow bounce" alt="4.jpg">
+			<h4 class="pb-4">NETWORK OF SUCCESS</h4>
+	
+			 <p class="mb-5 mt-2">Strongly networked community of successful students; Ex-students help our students build 	connections and offer career guidance.</p> 
+	
+		</div>
+	</div> 
+</div>
+<!--/what do we offer-->
+
+
+<!--Courses we offer-->
+<section>
+	<div class="container-fluid">
+		<h1 class="text-center text-capitalize pt-5 wow fadeInUp">courses we offer</h1>
+		<hr class="w-25 mx-auto mb-5">
+	</div>	
+</section>
+
+<div class="container courses-offer bg-warning pt-4 pb-4" style="border-radius: 15px;">
+	<div class="container">
+	<div class="row">
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div class="card" >
+  				<img src="images/others/course-card.jpg" class="card-img-top" alt="img">
+  				<div class="card-body">
+   					 <h3 class="card-title text-center">10<sup>th</sup></h3>
+    				 <p class="card-text">Class 10 is the key to your bright future. This is the time when students write their
+					first board examinations and need guidance.</p>
+    				  <div class="card-button"><a href="construction.html" class="btn btn-primary">Know More ></a></div>
+  				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div class="card" >
+  				<img src="images/others/course-card.jpg" class="card-img-top" alt="img">
+  				<div class="card-body">
+   					 <h3 class="card-title text-center">11<sup>th</sup> Sci.</h3>
+    				 <p class="card-text">Class 11  form base of CBSE Class 12 Boards. We prepare students for quantum increase in difficulty of syllabus.</p><br>
+    				  <div class="card-button"><a href="construction.html" class="btn btn-primary">Know More ></a></div>
+  				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div class="card">
+  				<img src="images/others/course-card.jpg" class="card-img-top" alt="img">
+  				<div class="card-body">
+   					 <h3 class="card-title text-center">12<sup>th</sup> Sci.</h3>
+    				 <p class="card-text">Class 12 is crucial as it is a key for admissions to good colleges. Good performance in boards give added advantage in higher studies.</p>
+    				 <div class="card-button"><a href="construction.html" class="btn btn-primary">Know More ></a></div>
+  				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div class="card" >
+  				<img src="images/others/course-card.jpg" class="card-img-top" alt="img">
+  				<div class="card-body">
+   					 <h4 class="card-title text-center">CET/JEE/NEET</h4>
+    				 <p class="card-text ">CET/JEE/NEET these exams are gateway For students college addmission in best colleges
+    				 We prepare students for these entrance exams</p>
+    				 <div class="card-button"><a href="construction.html" class="btn btn-primary">Know More ></a></div>
+  				</div>
+			</div>
+		</div>
+
+	</div>	
+	</div>
+</div>
+<!--/Courses we offer-->
+
+<!--highlight-->
+<section>
+	<div class="container-fluid text-center text-uppercase pt-5 ">
+		<h1 class="highlight wow fadeInUp mb-3">Highlight</h1>
+		<hr class="w-25 mx-auto mb-3">
+	</div>	
+</section>
+
+<div class="container">
+	<div id="carousel-example-3" class="carousel slide carousel-fade " data-ride="carousel" data-interval="2500">
+  <!--Indicators-->
+  <ul class="carousel-indicators">
+    <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-3" data-slide-to="1"></li>
+  </ul>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img src="images/highlight/highlight1.jpg" class="d-block img-thumbnail mx-auto" style="height:600px; width: 600px" alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img src="images/highlight/highlight2.jpg" class="d-block img-thumbnail mx-auto" style="height:600px; width: 600px" alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+ 
+	</div>
+</div>
+<!--/highlight-->
+
+<!--Enquiry form & contact us-->
+<div class="container pb-5">
+	<div class="row">
+		<!--Enquiry form-->
+		<div class="col-lg-6 col-md-6 col-12">
+			<section>
+				<div class="container">
+					<h1 class="text-center text-capitalize pt-5 wow fadeInUp">Enquiry Form</h1>
+					<hr class="w-50 mx-auto mb-3">
+				</div>	
+			</section>
+
+  			<div class="container bg-info wow slideInLeft" style="border-radius: 15px;">
+  				<form action="index.html">
+ 					<div class="form-group pt-3">
+ 					  <label for="nm" class="text-white">Name:</label>
+ 					  <input type="text" class="form-control" id="nm">
+ 					</div>
+ 					<div class="form-group">
+ 					  <label for="ctnct"  class="text-white">Contact:</label>
+ 					  <input type="number" class="form-control" id="contatct">
+ 					</div>
+ 					<div class="form-group">
+ 					  <label for="email"  class="text-white">Email:</label>
+ 					  <input type="email" class="form-control" id="email">
+ 					</div>
+ 					<div class="form-group">
+ 					  <label for="enq"  class="text-white">Enquiry:</label>
+ 					  <textarea class="form-control"></textarea>
+ 					</div>
+ 					<button type="submit" class="btn btn-default bg-warning mb-4">Submit</button>
+				</form>
+  			</div>
+		</div>
+		<!--/Enquiry form-->
+
+		<!--contact us-->
+		<div class="col-lg-6 col-md-6 col-12" id="contact">
+			<section>
+				<div class="container">
+					<h1 class="text-center text-capitalize pt-5 wow fadeInUp">Contact Us</h1>
+					<hr class="w-50 mx-auto mb-3">
+				</div>	
+			</section>
+			<div class="container bg-warning pt-5 pb-5 	wow slideInRight" style="border-radius: 15px;">
+			<!--Grid column-->
+        		<div class="text-center ">
+            		<ul class="list-unstyled">
+            	    	<li><i class="fas fa-map-marker-alt fa-2x"></i></a>
+            	        	<p><strong>Success Classes</strong></p>
+            	        	<p>Near Maharashtra Bank, Market Yard Patan</p>
+            	        	<p>Tal-Patan Dist-Satara 415206</p>
+            	    	</li>
+	
+            	    	<li><i class="fas fa-phone mt-4 fa-2x"></i>
+            	        	<p>+91 XXXXXXXXXX</p>
+            	   	 	</li>
+	
+            	    	<li><i class="fas fa-envelope mt-4 fa-2x"></i>
+            	        	<p>me.vaibharaut@gmail.com</p>
+            	   		</li>
+            		</ul>
+        		</div>
+        		<!--/Grid column-->
+        	</div>
+		</div>
+		<!--/contact us-->
+	</div>
+</div>
+<!--/Enquiry form & contact us-->
+	
+<!--About website-->
+<div class="container bg-warning mb-5" style="border-radius: 20px">
+	<div class="row">
+		<div class="col-lg-5 col-md-5 col-12 me">
+			<img src="images/others/nilesh.jpg" class="img-fluid mx-auto d-block pt-4 pb-4 wow rollIn">
+		</div>
+		<div class="col-lg-5 col-md-5 col-12">
+			<h5 class="pt-3 text-danger">Website is designed and developed by</h5>
+			<h2 style="font-family: 'Righteous', cursive;" class="pt-2 pb-3">Nilesh R. Kawar</h2>
+			<p class="text-left">
+				Hi! I am Nilesh Kawar, a web designer/developer focused on crafting great web experiences.<br>
+				My skills include: HTML, CSS, PHP, JAVA, .NET programming, web design, Adobe Photoshop, accounting.
+			</p>
+		</div>
+		<div class="col-lg-2 col-md-2 col-12">
+			<ul style="list-style-type: none;" class="pl-5 so-media-list">
+				<li ><a href="https://www.facebook.com/me.nileshkawar"><i class="fab fa-facebook fa-3x pt-4"></i></a></li>
+				<li ><a href="https://www.instagram.com/_nilesh_kawar__/"><i class="fab fa-instagram fa-3x pt-4"></i></a></li>
+				<li ><a href="https://twitter.com/nilesh_kawar"><i class="fab fa-twitter-square fa-3x pt-4"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--/About website-->
+
+<!--footer-->
+<footer >
+	<!-- Copyright -->
+  	<div class="footer-copyright text-center py-3 bg-dark text-white">© 2018 Copyright:
+    	<a href="https://www.google.co.in"> Google.com</a>
+  	</div>
+  <!-- Copyright -->
+</footer>
+<!--footer-->
+
+
+
+<!--wow.js-->
+ <script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
